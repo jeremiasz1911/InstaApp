@@ -28,10 +28,13 @@ const MainNavbar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="#">Components</NavLink>
+              <NavLink href="#">O nas</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">GitHub</NavLink>
+              <NavLink href="#">Zarejestruj szkołę</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">Kontakt</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -51,7 +54,7 @@ const MainNavbar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText>Login</NavbarText>
         </Collapse>
       </Navbar>
     </div>
