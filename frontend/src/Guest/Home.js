@@ -9,7 +9,12 @@ function Guest() {
   return <>
   <MainNavbar />
   <MainCarousel/>
-  <MainJumbotron/>
+  <MainJumbotron 
+    title="Witaj w TeachApp!"
+    subtitle="This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information."
+    desc="It uses utility classes for typography and spacing to space content out within the larger container."
+    button="Dowiedz się więcej"
+  />
   </>;
 }
 

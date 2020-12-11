@@ -28,10 +28,10 @@ const MainNavbar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="#">O nas</NavLink>
+              <NavLink href="/o-nas">O nas</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Zarejestruj szkołę</NavLink>
+              <NavLink href="/oferta">Zarejestruj szkołę</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#">Kontakt</NavLink>

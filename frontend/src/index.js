@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Main from './Main';
+import RouterMaster from './RouterMaster';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
   <React.Fragment>
-    <Main />
+    <RouterMaster />
   </React.Fragment>,
   document.getElementById('root')
 );
